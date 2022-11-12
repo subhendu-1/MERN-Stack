@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,td,th{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: blueviolet;
+        }
+        tbody{
+            background-color: yellow;
+        }
+        tfoot{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+   <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Name</th>
+            <th>marks</th>
+        </tr>
+        <tr>
+            <td>Subhendu</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Rajat</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Subhendu</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Rajat</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Subhendu</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Rajat</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Subhendu</td>
+            <td>50</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>total</td>
+            <td>3949</td>
+        </tr>
+    </tfoot>
+
+   </table> 
+
+   <br>
+   <br>
+
+   <table>
+    <colgroup>
+        <colstyle="background-color: green;"></col>
+    </colgroup>
+    <tr>
+        <td colspan="2">2022</td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>jill</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Phone</td>
+        <td>894-1355</td>
+    </tr>
+    <tr>
+        <td>899-8754</td>
+        
+    </tr>
+   </table>
+</body>
+</html>

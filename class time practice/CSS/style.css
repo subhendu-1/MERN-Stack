@@ -1,0 +1,51 @@
+
+/* Universal selector */
+*{
+    /* font-style: italic;
+     */
+     /* margin: auto; */
+     padding: 0px 0px;
+}
+p{
+    border: 2px solid bisque;
+}
+
+.red-border{
+    background-color: cyan;
+    border: 2px solid black;
+}
+#lorem_text{
+    font-weight: bold;
+}
+/* grouping selector */
+
+#lorem_text,.red-border.h1{
+    font-style: italic;
+}
+/* nested selector */
+header{
+    font-size: 10px;
+}
+
+header h1{
+    /* background-color: rgb(86, 120, 0); */
+    /* background-color: rgba(80, 120, 0, 0.5); */
+
+    /* background-color: #39426c; */
+    background-color: hsl(234, 40%, 50%);
+
+    /* width: 50%; */
+    width: 10em;
+}
+ header{
+    width: 400px;
+    border: 1px solid red;
+}
+
+header img{
+    width: 10%;
+} 
+
+img{
+    width: 10vw;
+}

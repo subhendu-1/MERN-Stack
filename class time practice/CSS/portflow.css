@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    margin-inline: auto;
+}
+
+.left-column{
+    width: 35%;
+}
+.right-column{
+    width: 65%;
+}
+
+.img-box img {
+    width: 100%;
+}

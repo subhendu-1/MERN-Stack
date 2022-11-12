@@ -1,0 +1,41 @@
+body{
+    background-color: lightpink;
+}
+
+.container{
+    width: 80%;
+    margin-inline: auto;
+    background-color: aqua;
+    /* position: relative; */
+
+}
+
+.image2{
+    width: 70px;
+    position: sticky;
+    top: 100px;
+    left: 190px;
+}
+
+.text_box{
+    width: 90%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+img{
+    width: 200px;
+    float: left;
+}
+
+.text-wrapper{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    overflow: auto;
+}
+
+.space{
+    height: 40vh;
+}
