@@ -1,0 +1,39 @@
+
+
+.container {
+    width: 100%;
+    margin: 50px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    box-shadow: 4px 4px 1px #ccc;
+}
+
+h1 {
+    color: rgb(218, 17, 81);
+    /* background-color: burlywood; */
+    text-align: center;
+    /* text-decoration-line: underline;
+    text-decoration-color: rgb(57, 176, 38);
+    text-decoration-style: dotted;
+    text-decoration-thickness: 10px; */
+
+    text-decoration: underline blue dotted 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+
+p {
+    /* text-align: left; */
+    text-align: justify;
+    border: 2px dotted antiquewhite;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    word-spacing: 5px;
+    text-shadow: 5px 6px #eee;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
