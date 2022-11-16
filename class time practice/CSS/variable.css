@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* global variable */
+:root {
+    --brown-color:rgba(207, 121, 29, 0.6);
+    --text-size: auto;
+}
+.container {
+    /* minmum and maximum width define */
+    /* width: max(50%,300px,70vw,500px); */
+    /* width: min(800px,100%); */
+    /* width: calc(100% - 80px); */
+    /* aspect-ratio: 1 / 1; */
+    border: 2px solid red;
+    margin: auto;
+}
+
+.box {
+    display: inline-block;
+    /* width: calc(200px/4); */
+    height: min(40px,20%);
+    border: 2px solid;
+}
+
+
+button {
+    --brown-color:#effa
+    --font-size:0.6;
+    background-color: var(--brown-color);
+    padding: 15px 18px;
+    font-size: var(--font-size);
+}
