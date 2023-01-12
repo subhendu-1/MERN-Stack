@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.span-3 {
+    grid-column: span 2;
+}
+
+.container {
+    width: 360px;
+    margin: 60px auto;
+}
+
+.number-input {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    font-size: 3rem;
+    border: none;
+}
+
+.buttons-gird {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.button {
+    background-color: #ccc;
+    border-radius: 1px solid black;
+    padding-block: 12px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.orang {
+    background-color: rgb(red, green, blue);
+}
