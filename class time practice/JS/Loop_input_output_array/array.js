@@ -1,18 +1,20 @@
-const arr = [2,5,6,6,23]
+// const arr = [2,5,6,6,23]
 
-console.log(typeof(arr))
-
-
-const isPresent = arr.includes(5);
-console.log(isPresent);
+// console.log(typeof(arr))
 
 
-const index = arr.indexOf(5);
-console.log(index);
 
 
-arr.splice(3,0,300);
-console.log(arr);
+// const isPresent = arr.includes(5);
+// console.log(isPresent);
+
+
+// const index = arr.indexOf(5);
+// console.log(index);
+
+
+// arr.splice(3,0,300);
+// console.log(arr);
 
 // console.log(arr)
 // arr.sort();
@@ -40,3 +42,14 @@ console.log(arr);
 
 // console.log(arr.pop());  /pop from in array last
 // console.log(arr)
+
+
+
+
+
+
+const array = ['s',"subhendu",3,6];
+array.push("Rajat");
+array[7] = "Raj"; 
+console.log(array);
+console.log(array.length);
