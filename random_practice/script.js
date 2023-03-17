@@ -45,5 +45,6 @@ console.log(y);
 const {age: myAge , isAlive: myisAlive} = y;
 
 console.log(myAge,myisAlive);
+console.log(myAge,myisAlive);
 
 
