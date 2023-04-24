@@ -1,6 +1,6 @@
 //server intantiate
 const express = require('express');
-const req = require('express/lib/request');
+// const req = require('express/lib/request');
 const app = express();
 
 // activat the server on 3000 port:-
@@ -9,18 +9,20 @@ app.listen(3000, () => {
 });
 
 
-const bodyParser = require('body-parser');
+// create body parser for passing massage
 
-app.use(bodyParser.json());
+// const bodyParser = require('body-parser');
+
+// app.use(bodyParser.json());
 // Routing create:-
 
-app.get('/' , (res,req) => {
-    res.send("kasa ho sara bacho");
+app.get('/' , (respons,request) => {
+    respons.send("kasa ho sara bacho");
 });
 
-app.post("/api/cars" ,(req,tes) => {
-    const {name,brand} = req.body;
-    console.log(name);
-    console.log(brand);
-    console.log("Succesfully submited car");
-});
+// app.post("/api/cars" ,(req,tes) => {
+//     const {name,brand} = req.body;
+//     console.log(name);
+//     console.log(brand);
+//     console.log("Succesfully submited car");
+// });
